@@ -2,6 +2,8 @@ package model;
 
 /**
  * Simple Customer model.
+ 
+ 
  */
 public class Customer {
     private String customerId;

@@ -1,0 +1,14 @@
+package exception;
+
+/**
+ * Business exception thrown when account funds are insufficient.
+ */
+public class InsufficientFundsException extends Exception {
+    public InsufficientFundsException() {
+        super();
+    }
+
+    public InsufficientFundsException(String message) {
+        super(message);
+    }
+}
