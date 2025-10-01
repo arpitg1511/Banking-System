@@ -51,13 +51,13 @@ cd Banking-System
 2️⃣ Compile the Project
 
 ```bash
-javac bankingsystem/*.java
+javac -d out src/model/*.java src/exception/*.java src/service/*.java src/main/*.java
 ```
 
 3️⃣ Run the Project
 
 ```bash
-java bankingsystem.BankingSystem
+java -cp out main.BankingApplication
 ```
 
 🖼️ Demo (Console Output)
