@@ -19,9 +19,22 @@ This project demonstrates concepts like **Encapsulation, Abstraction, Inheritanc
 <pre>
 
 bankingsystem/
-│── Account.java        # Base class for accounts
-│── SavingsAccount.java # Example subclass
-│── BankingSystem.java  # Main application (console-based UI)
+|── src
+    │── exception
+        │── AccountNotFoundException.java        
+        │── InsufficientFundsException.java #
+    │── main
+        │── BankingSystem.java  # Main application (console-based UI)
+    │── model
+        │── Account.java        # Abstract Base class for accounts
+        │── SavingsAccount.java # SavingAccount subclass
+        │── CurrentAccount.java        # CurrentAccount subclass
+        │── Customer.java # Customer Owner Class
+    │── service
+        │── BankService.java        # Customer and Account details
+        │── TransactionService.java # Withdrawal or Deposition subclass
+        
+        
 
 </pre>
 
@@ -31,7 +44,9 @@ bankingsystem/
 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/arpitg1511/Banking-System.git
+git clone ``` https://github.com/arpitg1511/Banking-System.git
+
+```bash
 cd Banking-System
 ```
 
