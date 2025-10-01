@@ -22,7 +22,7 @@ bankingsystem/
 |── src
     │── exception
         │── AccountNotFoundException.java        
-        │── InsufficientFundsException.java #
+        │── InsufficientFundsException.java
     │── main
         │── BankingSystem.java  # Main application (console-based UI)
     │── model
@@ -44,9 +44,8 @@ bankingsystem/
 1️⃣ Clone the Repository
 
 ```bash
-git clone ``` https://github.com/arpitg1511/Banking-System.git
+git clone  https://github.com/arpitg1511/Banking-System.git
 
-```bash
 cd Banking-System
 ```
 
