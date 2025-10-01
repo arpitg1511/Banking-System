@@ -3,7 +3,7 @@
 *.jar
 *.war
 *.ear
-/out/
+out/
 target/
 build/
 *.log
