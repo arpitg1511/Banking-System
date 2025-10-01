@@ -15,13 +15,15 @@ This project demonstrates concepts like **Encapsulation, Abstraction, Inheritanc
 ---
 
 ## 📂 Project Structure
+
+<pre>
 ```bash
 bankingsystem/
 │── Account.java        # Base class for accounts
 │── SavingsAccount.java # Example subclass
 │── BankingSystem.java  # Main application (console-based UI)
 
-
+</pre>
 
 
 🚀 Getting Started
