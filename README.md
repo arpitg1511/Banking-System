@@ -17,7 +17,7 @@ This project demonstrates concepts like **Encapsulation, Abstraction, Inheritanc
 ## 📂 Project Structure
 
 <pre>
-```bash
+
 bankingsystem/
 │── Account.java        # Base class for accounts
 │── SavingsAccount.java # Example subclass
@@ -27,21 +27,23 @@ bankingsystem/
 
 
 🚀 Getting Started
+
 1️⃣ Clone the Repository
 
+```bash
 git clone https://github.com/arpitg1511/Banking-System.git
 cd Banking-System
 
 
 2️⃣ Compile the Project
 
-
+```bash
 javac bankingsystem/*.java
 
 
 3️⃣ Run the Project
 
-
+```bash
 java bankingsystem.BankingSystem
 
 
