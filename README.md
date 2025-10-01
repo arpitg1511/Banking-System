@@ -33,23 +33,23 @@ bankingsystem/
 ```bash
 git clone https://github.com/arpitg1511/Banking-System.git
 cd Banking-System
-
+```
 
 2️⃣ Compile the Project
 
 ```bash
 javac bankingsystem/*.java
-
+```
 
 3️⃣ Run the Project
 
 ```bash
 java bankingsystem.BankingSystem
-
+```
 
 🖼️ Demo (Console Output)
 
-
+```bash
 Welcome to the Banking System
 1. Create Account
 2. Deposit
@@ -61,7 +61,7 @@ Enter your choice: 1
 Enter Account Number: 1001
 Enter Account Holder Name: Arpit
 Account created successfully!
-
+```
 
 
 🧑‍💻 OOP Concepts Used
