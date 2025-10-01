@@ -3,10 +3,13 @@
 *.jar
 *.war
 *.ear
+*.log
+
+# Build directories
 out/
+bin/
 target/
 build/
-*.log
 
 # IDE
 .idea/

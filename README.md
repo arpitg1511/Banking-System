@@ -29,17 +29,23 @@ bankingsystem/
 
 git clone https://github.com/arpitg1511/Banking-System.git
 cd Banking-System
+
+
 2️⃣ Compile the Project
-bash
-Copy code
+
+
 javac bankingsystem/*.java
+
+
 3️⃣ Run the Project
-bash
-Copy code
+
+
 java bankingsystem.BankingSystem
+
+
 🖼️ Demo (Console Output)
-bash
-Copy code
+
+
 Welcome to the Banking System
 1. Create Account
 2. Deposit
@@ -51,6 +57,9 @@ Enter your choice: 1
 Enter Account Number: 1001
 Enter Account Holder Name: Arpit
 Account created successfully!
+
+
+
 🧑‍💻 OOP Concepts Used
 Encapsulation → Private fields with getters/setters
 
@@ -59,6 +68,8 @@ Inheritance → SavingsAccount extends Account
 Polymorphism → Overriding methods for different account types
 
 Abstraction → Hiding implementation details of operations
+
+
 
 📚 Future Enhancements
 Add support for multiple account types (Current, Fixed Deposit)
@@ -77,9 +88,7 @@ This project is licensed under the MIT License.
 
 ⭐ Don’t forget to star this repo if you like it!
 
-yaml
-Copy code
+
 
 ---
 
-👉 Do you also want me to add **GitHub shields (badges for Java, License, Stars, Forks)** at the very to
