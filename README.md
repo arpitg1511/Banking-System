@@ -18,21 +18,20 @@ This project demonstrates concepts like **Encapsulation, Abstraction, Inheritanc
 
 <pre>
 
-bankingsystem/
-|── src
-    │── exception
-        │── AccountNotFoundException.java        
-        │── InsufficientFundsException.java
-    │── main
-        │── BankingSystem.java  # Main application (console-based UI)
-    │── model
-        │── Account.java        # Abstract Base class for accounts
-        │── SavingsAccount.java # SavingAccount subclass
-        │── CurrentAccount.java        # CurrentAccount subclass
-        │── Customer.java # Customer Owner Class
-    │── service
-        │── BankService.java        # Customer and Account details
-        │── TransactionService.java # Withdrawal or Deposition subclass
+src/
+├── model/
+│ ├── Account.java (abstract)
+│ ├── SavingsAccount.java
+│ ├── CurrentAccount.java
+│ └── Customer.java
+├── service/
+│ ├── BankService.java
+│ └── TransactionService.java
+├── exception/
+│ ├── InsufficientFundsException.java
+│ └── AccountNotFoundException.java
+└── main/
+└── BankingApplication.java
         
         
 
@@ -66,15 +65,21 @@ java bankingsystem.BankingSystem
 ```bash
 Welcome to the Banking System
 1. Create Account
-2. Deposit
-3. Withdraw
-4. Check Balance
-5. Exit
-
-Enter your choice: 1
-Enter Account Number: 1001
-Enter Account Holder Name: Arpit
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. Check Balance
+6. Account Statement
+7. View All Accounts
+8. Exit
+Select an option (1-8): 1
+Enter account type (Savings/Current): Savings
+Customer ID: 1
+Customer Name: Arpit
+Customer Email: arpit@yahoo.com
+Initial deposit amount: 1200
 Account created successfully!
+AccountNumber: SAV001 | Type: SavingsAccount | Holder: Arpit | Balance: 1200.00
 ```
 
 
